@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <h1>Conversor de Temperatura</h1>
+
+    <form action="converter_temperatura" method="post">
+        <label>Digite a temperatura em Celsius:</label>
+        <br><br>
+
+        <input type="number" name="temperatura" step="0.01">
+        <br><br>
+
+        <button type="submit">Converter</button>
+    </form>
+
+    <h2>Resultado: {{ resultado }}</h2>
+</body>
+</html>
