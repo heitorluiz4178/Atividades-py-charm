@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <h1>Conversor de Moeda</h1>
+
+    <form action="converter_moeda" method="post">
+
+        <label>Digite o valor em dólar</label>
+        <br><br>
+
+        <input type="number" name="valor" step="0.01">
+        <br><br>
+
+        <button type="submit">Converter</button>
+    </form>
+
+    <h2>Resultado: R$ {{ resultado }}</h2>
+</body>
+</html>
