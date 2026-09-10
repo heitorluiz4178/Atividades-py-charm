@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Idade</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Calculadora de Idade</h1>
+
+    <form action="/calcular_idade" method="post">
+
+        <input type="number" name="ano">
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    <h2>{{ idade }}</h2>
+</body>
+</html>
